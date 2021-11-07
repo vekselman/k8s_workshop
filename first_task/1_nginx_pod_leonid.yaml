@@ -4,7 +4,7 @@ metadata:
   name: nginx-pod-leonid
 spec:
   containers:
-    - name: nginx-pod-leonid
+    - name: nginx
       image: nginx:alpine
       ports:
         - containerPort: 80
